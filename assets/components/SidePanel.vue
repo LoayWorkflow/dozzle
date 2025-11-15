@@ -25,7 +25,6 @@
 </template>
 
 <script lang="ts" setup>
-import Logo from "@/dark-raven.png";
 const { hostname } = config;
 </script>
 
