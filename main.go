@@ -24,6 +24,7 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
+
 //go:embed all:dist
 var content embed.FS
 
