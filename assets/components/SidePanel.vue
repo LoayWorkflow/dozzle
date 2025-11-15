@@ -2,8 +2,8 @@
   <aside class="fixed flex h-screen w-[inherit] flex-col gap-4 p-3" data-testid="navigation">
     <h1>
       <router-link :to="{ name: '/' }" class="flex w-full items-center gap-4 overflow-hidden text-4xl font-thin">
-        <Logo class="h-14 w-14 shrink-0" />
-        Dozzle
+        <img src="https://cdn.raven.cmp27.space/dark-raven.png" class="h-14 w-14 shrink-0" />
+        Raven
       </router-link>
 
       <small class="mt-4 block text-sm font-light" v-if="hostname">{{ hostname }}</small>
@@ -25,7 +25,7 @@
 </template>
 
 <script lang="ts" setup>
-import Logo from "@/logo.svg";
+import Logo from "@/dark-raven.png";
 const { hostname } = config;
 </script>
 
